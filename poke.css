@@ -1,0 +1,80 @@
+.pokename{
+    padding-top: 10px;
+}
+
+ul.ability-list{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.home-body{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(228, 221, 21), rgb(246, 148, 29));
+}
+.search{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(228, 221, 21), rgb(246, 148, 29));
+}
+
+img.pokeball{
+
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    animation: rotate 10s infinite linear;
+    
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+img.pokeball2{
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    animation: rotate 10s infinite linear;
+    
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+#home-message{
+    font-size: 30px;
+    text-align: center;
+}
+
+#home-message2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(40, 110, 239);
+}
+
+.search-header{
+    padding-top: 15px;
+    color: rgb(40, 110, 239);
+
+}
+
+button{
+    background-color: rgb(40, 110, 239);
+    color:rgb(228, 221, 21)
+
+}
